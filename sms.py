@@ -53,7 +53,7 @@ def history() :
                 if more_details == "yes" or more_details == "y" :
                     os.system("cat sess.txt")
                 else :
-                    print("Thanks for using sms-scammer, please keep supporting us.\nGithub : github.com/Sanif007")
+                    print("Thanks for using sms-scammer, please keep supporting us.\nGithub : github.com/Vaishu8987")
             elif ses_number == 1: 
                 print(file.readline)
             else :
@@ -74,14 +74,14 @@ def help() :
     elif qna == "b" :
         print("please check your vpn carefully and use best vpns only. Like nordvpn , protonvpn etc. ")
     elif qna == "c" :
-        print("sorry for any problem! Please mail us your problem on hackersacademyofindia@gmail.com or you can mention your problem in github.com/Sanif007")
+        print("sorry for any problem! Please mail us your problem on hackersacademyofindia@gmail.com or you can mention your problem in github.com/Vaishu8987")
     else :
         print("Invalid option!! \n exiting.. Sorry..")
         exit()
 os.system("clear")
 os.system("toilet -f mono12 -F gay Scammer")
 print("\033[94m########################## \033[31mVr. 4.0\033[0m \033[94m#########################  ")
-print("\033[1;96mCoded by github.com/Sanif007 \033[0m")
+print("\033[1;96mCoded by github.com/Vaishu8987\033[0m")
 print(f"Program started at : {starttime}")
 ip = get("https://api.ipify.org").text
 ip_c = input("\033[95;107mDo you want to see your current ip ? : \033[0m").lower()
