@@ -1,7 +1,7 @@
 import requests, os, sys, time, datetime
 from requests import get
 starttime = datetime.datetime.now().strftime("%X")
-print("\033[96mCoded by github.com/Sanif007 \033[0m ")
+print("\033[96mCoded by github.com/Vaishu8987 \033[0m ")
 print("\033[93m Version 4.0 \033[0m")
 print("\033[91m Checking dependencies... \033[0m")
 time.sleep(2)
@@ -23,7 +23,7 @@ def control() :
     elif ctrl == "4" :
         history()
     elif ctrl == "5" :
-        print("thanks for using it.\nplease stay connected with us. github.com/Sanif007")
+        print("thanks for using it.\nplease stay connected with us. github.com/Vaishu8987")
         exit()
     else :
         print("\033[91mInvalid number\033[0m")
@@ -31,10 +31,10 @@ def sms() :
    phone_no = input("enter phone number : ")
    msg = input("message to send : ")
 
-   resp = requests.post('https://textbelt.com/text',{
+   resp = requests.post('http://api.txtlocal.com/send/?',{
 	'phone' : phone_no,
 	'message' : msg ,
-	'key' : 'textbelt'
+	'key' : 'txtlocal'
    })
    print(resp.text)
    time = datetime.datetime.now()
