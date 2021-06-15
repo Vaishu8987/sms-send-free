@@ -7,6 +7,6 @@ this tool is not for any revenge purpose. Please use it only for fun! Use wisely
 2. apt install python git -y
 3. git clone https://github.com/Vaishu8987/sms-send-free
 4. pip install requests
-5. cd sms-scammer
+5. cd sms-send-free
 6. python sms.py
 
