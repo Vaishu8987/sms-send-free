@@ -1,4 +1,4 @@
-# sms-scammer [v. 4.0](https://github.com/Vaishu8987/sms-send-free)
+# sms-send-free [v. 4.0](https://github.com/Vaishu8987/sms-send-free)
 # author : [Ninja Hydra ](https://github.com/Vaishu8987)
 this tool is not for any revenge purpose. Please use it only for fun! Use wisely!
 
